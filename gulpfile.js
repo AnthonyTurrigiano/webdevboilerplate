@@ -34,6 +34,6 @@ gulp.task('serve', ['webserver', 'watch'], function () {
         port: 8082
     });
 
-  gulp.watch("./src/*.html").on('change', browserSync.reload);
+  gulp.watch("./src/**/*").on('change', browserSync.reload);
 });
 
