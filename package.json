@@ -1,0 +1,24 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.1",
+  "description": "boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Turrigiano",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.9.3",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.2",
+    "gulp-webserver": "^0.9.1",
+    "html5bp": "^0.2.1",
+    "jshint-stylish": "^2.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "font-awesome": "^4.4.0",
+    "open-sans-fontface": "^1.4.0"
+  }
+}
